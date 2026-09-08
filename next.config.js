@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: "/api/v1/admin/:path*",
-        destination: `${process.env.NEXT_PUBLIC_FASTAPI_URL || "http://localhost:8002"}/api/v1/admin/:path*`,
+        destination: `${process.env.NEXT_PUBLIC_FASTAPI_URL || "http://localhost:8000"}/api/v1/admin/:path*`,
       },
     ];
   },
