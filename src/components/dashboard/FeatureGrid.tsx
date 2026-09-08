@@ -14,6 +14,7 @@ import {
   ShieldCheck,
   Gamepad2,
   Crosshair,
+  CalendarDays,
 } from "lucide-react";
 
 interface FeatureItem {
@@ -112,6 +113,13 @@ const features: FeatureItem[] = [
     image: "/images/earnclash.png",
     href: "/earnclash",
     accent: "rose",
+  },
+  {
+    id: "events",
+    label: "Events",
+    icon: CalendarDays,
+    href: "/events",
+    accent: "amber",
   },
 ];
 
